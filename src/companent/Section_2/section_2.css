@@ -1,0 +1,19 @@
+.section2{
+    width: 100%;
+    background: rgba(13, 13, 14, 1);
+    color: #fff;
+    margin-bottom: 50px;
+}
+.titleH2{
+    text-align: center;
+    font-size: 30px;
+    padding-top: 50px;;
+    padding-bottom: 50px;
+}
+.section1 .cardes{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 30px;
+}

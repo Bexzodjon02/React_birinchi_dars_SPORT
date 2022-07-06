@@ -1,0 +1,24 @@
+body{
+    background:rgba(13, 13, 14, 1);
+}
+.head{
+    display: flex;  
+    color:#fff;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    padding-left: 120px;
+    padding-top: 40px;
+    
+}
+.head .left{
+    width: 544px;
+    padding-bottom: 100px;
+}
+.head .left .span{
+    color: red;
+}
+.head .right .ipp{
+    width: 484px;
+    height: 474px;
+}

@@ -1,0 +1,80 @@
+
+.header{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 120px;
+    padding-top: 50px;
+    background: rgba(13, 13, 14, 1);
+    height: 400px;
+}
+.titles{
+    color: #fff;
+    
+}
+.titles p{
+    color: darkgrey;
+    
+}
+.titles h1{
+    font-size: 50px;
+    font-weight: 900;
+    
+}
+.titles span{
+    color: red;
+    font-weight: 900;
+    
+}
+.titles .btn2{
+    color:#fff;
+    font-weight: 500;
+    background: rgba(250, 58, 16, 1);
+    text-transform:uppercase;
+    cursor:wait ;
+    border-radius: 9px;
+    height: 35px;
+    transition: 0.5s;
+}
+.titles .btn2:hover{
+    background: none; 
+    border: 2px solid #fff;
+}
+.images img{
+    width: 399px;
+    height: 395px;
+    position: absolute;
+    right: 190px;
+    top: 40px;
+}
+.carts{
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    background:rgba(13, 13, 14, 1) ;
+    padding-top: 32px;
+    height: 250px;
+}
+.carts .card{
+    background: rgba(24, 24, 24, 1);
+    width: 210px;
+    height: 160px;
+    text-align: center;
+    border-radius: 10px;
+    
+}
+.carts .card img{
+    width: 70px;
+    padding-top: 10px;
+}
+.carts .card .p2{
+   font-size: 20px;
+   color: #fff;
+}
+.carts .card p{
+   font-size: 13px;
+   color: darkgrey;
+}
